@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(244, 222, 188);
+   
+}
+
+.welcome{
+    text-align: center;
+}
+
+.door-img{
+    /* text-align: center; */
+    height: 400px;
+    width: 250px;
+    margin: 10px;
+     
+}
+
+#press-img{
+    height: 100px;
+    width: 100px;
+    margin: 10px 10px 200px 30px;
+    /* float: right; */
+     
+}
+
+
+
+h1{
+    font-family: 'Cormorant SC', serif;
+}
+
+.container{
+    display: inline-block;
+    
+}
+
+@media only screen and (max-width: 720px) {
+    .container{
+        padding: 50px 0;
+    }
+
+    #press-img{
+        height: 50px;
+        width: 50px;
+        margin-top: 50px;
+        
+    }
+    .door-img{
+       height: 250px;
+        width: 150px;
+         
+    }
+    
+}
